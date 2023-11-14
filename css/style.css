@@ -632,35 +632,11 @@ a {
   padding-right: 35px;
 }
 
-/*
 .page__head {
-	overflow: hidden;
-	padding-bottom: 83px;
-	padding-top: 83px;
-
-	@include media-max-575 {
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
-
-	h1 {
-
-		span {
-			//font-size: 161.28px;
-			@include adaptive-value("font-size", 161.28, 46, 1);
-			line-height: 100%;
-			margin-left: 60px;
-			margin-right: 60px;
-			text-transform: uppercase;
-
-			@include media-max-575 {
-				margin-left: 25px;
-				margin-right: 25px;
-			}
-		}
-	}
+  overflow: hidden;
+  padding-bottom: 83px;
+  padding-top: 83px;
 }
-*/
 
 .n_sec-title {
   font-size: 32px;
@@ -3656,6 +3632,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .n_container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .page__head {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .n_sec-title {
