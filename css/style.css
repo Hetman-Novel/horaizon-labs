@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: local("AktivGroteskCorp-Bold"), url("AktivGroteskCorp-Bold.woff2") format("woff2"), url("AktivGroteskCorp-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* cyrillic-ext */
 
 @font-face {
@@ -741,6 +748,7 @@ h6 {
 }
 
 .page__title {
+  font-family: "Aktiv Grotesk", sans-serif;
   font-size: 73px;
   font-weight: 700;
   line-height: 130%;
@@ -750,7 +758,7 @@ h6 {
 
 .page__title span {
   color: transparent;
-  -webkit-text-stroke: 1px #9D51BF;
+  -webkit-text-stroke: 2px #A153BA;
 }
 
 .swiper-pagination-bullets {
@@ -1758,8 +1766,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .fs__content h4,
 .fs__content h5,
 .fs__content h6 {
-  font-size: 73px;
-  line-height: 128%;
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 94px;
+  line-height: 100%;
+  font-weight: 700;
   margin-bottom: 35px;
   text-transform: uppercase;
 }
@@ -1771,7 +1781,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .fs__content h5 span,
 .fs__content h6 span {
   color: transparent;
-  -webkit-text-stroke: 1px #9D51BF;
+  -webkit-text-stroke: 2px #A153BA;
 }
 
 .fs__block-text {
@@ -2314,9 +2324,9 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .advancement-of-ai__circle P {
-  font-family: "Unbounded", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 134px;
+  font-weight: 700;
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
@@ -3350,6 +3360,15 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .block__element {
     top: 35px;
   }
+
+  .fs__content h1,
+  .fs__content h2,
+  .fs__content h3,
+  .fs__content h4,
+  .fs__content h5,
+  .fs__content h6 {
+    font-size: 83px;
+  }
 }
 
 @media (max-width: 1270px) {
@@ -3411,6 +3430,15 @@ body._touch .header .menu__list > li._active .menu__arrow {
 @media screen and (max-width: 1100.98px) {
   .page__title {
     font-size: 54px;
+  }
+
+  .fs__content h1,
+  .fs__content h2,
+  .fs__content h3,
+  .fs__content h4,
+  .fs__content h5,
+  .fs__content h6 {
+    font-size: 73px;
   }
 
   .faqs__illustration {
@@ -3802,6 +3830,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     top: 11px;
   }
 
+  .fs__content {
+    max-width: 68%;
+  }
+
   .fs__content h1,
   .fs__content h2,
   .fs__content h3,
@@ -3809,6 +3841,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .fs__content h5,
   .fs__content h6 {
     font-size: 60px;
+  }
+
+  .fs__block-text {
+    max-width: 70%;
   }
 
   .fs__block-text p {
@@ -3934,6 +3970,15 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 @media screen and (max-width: 900.98px) {
+  .fs__content h1,
+  .fs__content h2,
+  .fs__content h3,
+  .fs__content h4,
+  .fs__content h5,
+  .fs__content h6 {
+    font-size: 55px;
+  }
+
   .advancement-of-ai {
     padding-bottom: 170px;
   }
@@ -4037,7 +4082,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .fs__content h4,
   .fs__content h5,
   .fs__content h6 {
-    font-size: 40px;
+    font-size: 51px;
   }
 
   .fs__button {
@@ -4373,6 +4418,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     font-size: 16px;
   }
 
+  .page__title span {
+    -webkit-text-stroke: 1px #A153BA;
+  }
+
   .swiper-pagination-bullets .swiper-pagination-bullet {
     height: 10px;
     width: 10px;
@@ -4468,6 +4517,15 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   #burger {
     margin-top: 5px;
+  }
+
+  .fs__content h1 span,
+  .fs__content h2 span,
+  .fs__content h3 span,
+  .fs__content h4 span,
+  .fs__content h5 span,
+  .fs__content h6 span {
+    -webkit-text-stroke: 1px #A153BA;
   }
 
   .fs__block-text p {
