@@ -1740,6 +1740,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .wrap-fs {
   padding-bottom: 248px;
   overflow: hidden;
+  position: relative;
 }
 
 .fs {
@@ -1819,6 +1820,20 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .fs__image {
   position: absolute;
   right: -9px;
+  z-index: -1;
+}
+
+.fs__video {
+  bottom: 0;
+  left: auto;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: -65%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 100%;
   z-index: -1;
 }
 
@@ -4466,6 +4481,12 @@ body._touch .header .menu__list > li._active .menu__arrow {
     width: 177px;
   }
 
+  .fs__video {
+    -o-object-position: 52% 0;
+       object-position: 52% 0;
+    right: -58%;
+  }
+
   .do-we-accelerate-growth__title {
     font-size: 14px;
   }
@@ -4774,7 +4795,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .wrap-fs {
-    padding-bottom: 264px;
+    padding-bottom: 120px;
   }
 
   .fs__content {
