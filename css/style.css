@@ -4944,7 +4944,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .fs__content {
-    max-width: 100%;
+    max-width: 300px;
   }
 
   .fs__content h1,
@@ -4958,7 +4958,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .fs__block-text {
-    max-width: 72%;
+    max-width: 80%;
   }
 
   .fs__image {
